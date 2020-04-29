@@ -30,13 +30,13 @@
     "@commitlint/cli": ">=8.3"
   },
   "dependencies": {
-    "@commitlint/config-angular": "^8.3.4"
+    "@commitlint/config-angular": "8.3.4"
   },
   "devDependencies": {
-    "@arbetsmyra/prettier-config": "^1.1.0",
-    "@commitlint/cli": "^8.3.5",
-    "husky": "^4.2.5",
-    "prettier": "^2.0.5"
+    "@arbetsmyra/prettier-config": "1.1.0",
+    "@commitlint/cli": "8.3.5",
+    "husky": "4.2.5",
+    "prettier": "2.0.5"
   },
   "prettier": "@arbetsmyra/prettier-config",
   "commitlint": {
