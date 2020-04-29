@@ -1,0 +1,50 @@
+{
+  "name": "@arbetsmyra/commitlint-config",
+  "version": "1.0.0",
+  "description": "Arbetsmyra's commitlint config",
+  "main": "commitlint-config.js",
+  "scripts": {
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "test": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbetsmyra/commitlint-config.git"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlint-config",
+    "shareable-commitlint-config",
+    "arbetsmyra"
+  ],
+  "author": "Anthon <anthon.kendel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arbetsmyra/commitlint-config/issues"
+  },
+  "homepage": "https://github.com/arbetsmyra/commitlint-config#readme",
+  "peerDependencies": {
+    "@commitlint/cli": ">=8.3"
+  },
+  "dependencies": {
+    "@commitlint/config-angular": "^8.3.4"
+  },
+  "devDependencies": {
+    "@arbetsmyra/prettier-config": "^1.1.0",
+    "@commitlint/cli": "^8.3.5",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+  },
+  "prettier": "@arbetsmyra/prettier-config",
+  "commitlint": {
+    "extends": [
+      "./commitlint-config.js"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
