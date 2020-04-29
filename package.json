@@ -6,7 +6,9 @@
   "scripts": {
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write .",
-    "test": "prettier --check ."
+    "lint:fix": "npm run prettier:write",
+    "lint": "npm run prettier:check",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -44,10 +46,13 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run lint:fix"
     }
   },
   "renovate": {
-    "extends": ["@arbetsmyra"]
+    "extends": [
+      "@arbetsmyra"
+    ]
   }
 }
