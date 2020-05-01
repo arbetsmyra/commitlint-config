@@ -27,16 +27,13 @@
     "url": "https://github.com/arbetsmyra/commitlint-config/issues"
   },
   "homepage": "https://github.com/arbetsmyra/commitlint-config#readme",
-  "peerDependencies": {
-    "@commitlint/cli": ">=8.3"
-  },
   "dependencies": {
+    "@commitlint/cli": "^8.3.5",
     "@commitlint/config-angular": "8.3.4"
   },
   "devDependencies": {
     "@arbetsmyra/prettier-config": "1.2.0",
     "@arbetsmyra/semantic-release-config": "^1.0.2",
-    "@commitlint/cli": "8.3.5",
     "husky": "4.2.5",
     "prettier": "2.0.5"
   },
