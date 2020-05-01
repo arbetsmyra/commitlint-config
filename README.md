@@ -14,7 +14,7 @@ Arbetsmyra's [commitlint config](https://commitlint.js.org/#/concepts-shareable-
 - `npm` >= v5
 
 ```bash
-npm install --save-dev @commitlint/cli @arbetsmyra/commitlint-config
+npm install --save-dev @arbetsmyra/commitlint-config
 ```
 
 ## Usage
