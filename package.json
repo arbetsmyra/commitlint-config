@@ -1,6 +1,6 @@
 {
   "name": "@arbetsmyra/commitlint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Arbetsmyra's commitlint config",
   "main": "commitlint-config.js",
   "scripts": {
