@@ -8,7 +8,8 @@
     "prettier:write": "prettier --write .",
     "lint:fix": "npm run prettier:write",
     "lint": "npm run prettier:check",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
   },
   "devDependencies": {
     "@arbetsmyra/prettier-config": "1.2.0",
+    "@arbetsmyra/semantic-release-config": "^1.0.2",
     "@commitlint/cli": "8.3.5",
     "husky": "4.2.5",
     "prettier": "2.0.5"
@@ -53,6 +55,14 @@
   "renovate": {
     "extends": [
       "@arbetsmyra"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "extends": [
+      "@arbetsmyra/semantic-release-config"
     ]
   }
 }
