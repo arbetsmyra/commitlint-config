@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/arbetsmyra/commitlint-config/compare/v1.2.0...v1.3.0) (2020-05-04)
+
+
+### Features
+
+* replace config-angular with config-conventional ([4f3c6fd](https://github.com/arbetsmyra/commitlint-config/commit/4f3c6fd4a1d5110b47a1088d9cf61c43130fd98f))
+
 # [1.2.0](https://github.com/arbetsmyra/commitlint-config/compare/v1.1.0...v1.2.0) (2020-05-01)
 
 
