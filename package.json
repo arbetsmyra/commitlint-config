@@ -29,7 +29,7 @@
   "homepage": "https://github.com/arbetsmyra/commitlint-config#readme",
   "dependencies": {
     "@commitlint/cli": "8.3.5",
-    "@commitlint/config-angular": "8.3.4"
+    "@commitlint/config-conventional": "8.3.4"
   },
   "devDependencies": {
     "@arbetsmyra/prettier-config": "1.2.0",
