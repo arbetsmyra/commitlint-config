@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/arbetsmyra/commitlint-config/compare/v1.3.0...v1.3.1) (2020-06-21)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v9 ([1717c04](https://github.com/arbetsmyra/commitlint-config/commit/1717c04753a971a18afe8b9abe9890ef2c3c4204))
+
 # [1.3.0](https://github.com/arbetsmyra/commitlint-config/compare/v1.2.0...v1.3.0) (2020-05-04)
 
 
