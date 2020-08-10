@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/arbetsmyra/commitlint-config/compare/v1.3.2...v2.0.0) (2020-08-10)
+
+
+### Build System
+
+* make @commitlint/cli peerDependency ([e1e5aaa](https://github.com/arbetsmyra/commitlint-config/commit/e1e5aaaf5a2caa6f521863dbc1412ca6e49ce932))
+
+
+### BREAKING CHANGES
+
+* previously the config was delivered with commitlint/cli as
+a dependency but this is now changed to be a peer dependency. The consumer
+now needs to install the package with: `npm install --save-dev @commitlint/cli`.
+
 ## [1.3.2](https://github.com/arbetsmyra/commitlint-config/compare/v1.3.1...v1.3.2) (2020-07-13)
 
 
