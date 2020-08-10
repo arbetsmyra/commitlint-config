@@ -12,9 +12,10 @@ Arbetsmyra's [commitlint config](https://commitlint.js.org/#/concepts-shareable-
 
 - `node` >= v10
 - `npm` >= v5
+- `@commitlint/cli` >= 9.1
 
 ```bash
-npm install --save-dev @arbetsmyra/commitlint-config
+npm install --save-dev @commitlint/cli @arbetsmyra/commitlint-config
 ```
 
 ## Usage
