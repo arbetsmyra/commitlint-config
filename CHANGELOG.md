@@ -1,3 +1,15 @@
+# [2.1.0](https://github.com/arbetsmyra/commitlint-config/compare/v2.0.0...v2.1.0) (2020-09-15)
+
+
+### Bug Fixes
+
+* **deps:** npm audit fix ([17ddffe](https://github.com/arbetsmyra/commitlint-config/commit/17ddffe34d382baf2234113f0b6b60d51682bb81))
+
+
+### Features
+
+* force new minor ([4055ff4](https://github.com/arbetsmyra/commitlint-config/commit/4055ff4cdd0f59bd0c9979b782a694e653415694))
+
 # [2.0.0](https://github.com/arbetsmyra/commitlint-config/compare/v1.3.2...v2.0.0) (2020-08-10)
 
 
