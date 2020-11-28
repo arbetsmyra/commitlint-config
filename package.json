@@ -38,7 +38,7 @@
     "@arbetsmyra/semantic-release-config": "1.1.7",
     "@commitlint/cli": "11.0.0",
     "husky": "4.3.0",
-    "prettier": "2.2.0"
+    "prettier": "2.2.1"
   },
   "prettier": "@arbetsmyra/prettier-config",
   "commitlint": {
