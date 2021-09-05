@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@arbetsmyra/prettier-config": "1.2.1",
-    "@arbetsmyra/semantic-release-config": "1.1.24",
+    "@arbetsmyra/semantic-release-config": "1.1.25",
     "@commitlint/cli": "12.1.4",
     "husky": "4.3.8",
     "prettier": "2.3.2"
